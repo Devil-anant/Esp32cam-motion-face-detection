@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+face_env/
+*.egg-info/
+
+# Captured images and known faces — don't publish personal photos
+server/captures/
+server/known_faces/*.jpg
+server/known_faces/*.jpeg
+server/known_faces/*.png
+!server/known_faces/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Arduino IDE
+*.ino.bak
+build/
